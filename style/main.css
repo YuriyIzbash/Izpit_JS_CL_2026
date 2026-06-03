@@ -144,3 +144,14 @@ body {
     filter: brightness(0) invert(1);
 }
 .contact__socials a:hover img { filter: brightness(0) invert(0.7); }
+
+/* ── FOOTER ── */
+.footer {
+    background: var(--primary-bg);
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+}
+.footer .accent { color: var(--accent); }
