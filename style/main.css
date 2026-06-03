@@ -38,8 +38,58 @@ body {
 
     z-index: 100;
 }
-.nav__logo img { width: 50px; height: 50px; }
-.nav__links { display: flex; gap: 40px;}
-.nav__links a { font-size: 16px; color: var(--header-text); text-decoration: none;}
+.nav__logo img {
+    width: 50px;
+    height: 50px;
+}
+.nav__links {
+    display: flex;
+    gap: 40px;
+}
+.nav__links a {
+    font-size: 16px;
+    color: var(--header-text);
+    text-decoration: none;
+}
 .nav__links a:hover { color: var(--accent); }
 
+/* ── Hero ── */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-bg);
+    position: relative;
+}
+.hero__content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.hero__avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: var(--placeholder-bg);
+}
+.hero__name {
+    font-size: 72px;
+    font-weight: 800;
+    color: var(--white);
+    margin-bottom: 12px;
+}
+.hero__name .accent { color: var(--accent); }
+.hero__tagline {
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--header-text);
+}
+.hero__arrow {
+    position: absolute;
+    bottom: 50px;
+}
+.hero__arrow img {
+    width: 32px;
+}
