@@ -1,0 +1,27 @@
+/* ── Variables ── */
+:root {
+    --accent:   #E65F78;
+    --white:    #FFFFFF;
+    --primary-bg:  #1F1F1F;
+    --secondary-bg:    #333333;
+    --header-text: #F7F7F7;
+    --placeholder-bg:    #CCCCCC;
+    --font: 'Open Sans', sans-serif;
+}
+
+/* ── Reset ── */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font), sans-serif;
+    background-color: var(--primary-bg);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
