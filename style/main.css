@@ -1,4 +1,4 @@
-/* ── Variables ── */
+/* ── VARIABLES ── */
 :root {
     --accent:   #E65F78;
     --white:    #FFFFFF;
@@ -9,7 +9,7 @@
     --font: 'Open Sans', sans-serif;
 }
 
-/* ── Reset ── */
+/* ── RESET ── */
 * {
     margin: 0;
     padding: 0;
@@ -25,3 +25,21 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
+
+/* ── NAV BAR ── */
+.nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 160px;
+    background: var(--primary-bg);
+
+    z-index: 100;
+}
+.nav__logo img { width: 50px; height: 50px; }
+.nav__links { display: flex; gap: 40px;}
+.nav__links a { font-size: 16px; color: var(--header-text); text-decoration: none;}
+.nav__links a:hover { color: var(--accent); }
+
